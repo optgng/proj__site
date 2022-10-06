@@ -1,2 +1,2 @@
 # FinCons Site
-Сайт доступен по ссылке: https://optgng.github.io/proj__site/index.html
+Сайт доступен по ссылке: https://optgng.github.io/proj__site/
