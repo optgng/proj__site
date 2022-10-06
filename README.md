@@ -1,2 +1,2 @@
-# proj__site
-Web-progrmming laboratory
+# FinCons Site
+Сайт доступен по ссылке: https://optgng.github.io/proj__site/index.html
