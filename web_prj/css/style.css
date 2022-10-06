@@ -4,8 +4,8 @@ html, body {
     font-size: 14px;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
-    background-color: #fafafa;
-    color: #252b42;
+    background-color: #252B42;
+    color: #ffffff;
 }
 
 .wrapper {
@@ -44,7 +44,9 @@ html, body {
     top: 0;
     z-index: 50;
 }
-
+.header-advantages {
+    background-color: #1c2032;
+}
 .header__container {
     display: flex;
     min-height: 104px;
@@ -109,7 +111,7 @@ html, body {
 }
 
 .menu__link {
-    color: #737373;
+    color: #fff;
     font-weight: 600;
     line-height: calc(24 / 14);
 }
@@ -219,22 +221,22 @@ html, body {
 }
 
 .main-block__button_orange {
-    background: #ff7b47;
+    background: #DC143C;
     color: #fff;
 }
 
 .main-block__button_orange:hover {
     background-color: #fff;
-    color: #ff7b47;
+    color: #DC143C;
 }
 
 .main-block__button_border {
-    color: #0D5C63;
-    border: 1px solid #0D5C63;
+    color: #4682B4;
+    border: 1px solid #4682B4;
 }
 
 .main-block__button_border:hover {
-    background-color: #0D5C63;
+    background-color: #4682B4;
     color: #fff;
 }
 
@@ -244,6 +246,9 @@ html, body {
     height: 100%;
     top: 0;
     left: 0;
+}
+.main-block__image_layer {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 }
 @media (max-width: 1300px) {
     .main-block__image img {
@@ -310,19 +315,20 @@ html, body {
 .item-service__title {
     font-weight: 700;
     font-size: 24px;
+    color: #252B42;
     letter-spacing: 0.1px;
     line-height: calc(32 / 24);
 }
 
-.item-service_green {
-    background-color: #0D5C63;
+.item-service_blue {
+    background-color: #4682B4;
 }
 
-.item-service_green .item-service__title {
+.item-service_blue .item-service__title {
     color: #fff;
 }
 
-.item-service_green .item-service__text {
+.item-service_blue .item-service__text {
     color: #fff;
 }
 
@@ -330,7 +336,9 @@ html, body {
     color: #737373;
     line-height: calc(20 / 14);
 }
-
+.item-service__icon {
+    fill: #4682B4;
+}
 /* ----------------- HEADER-BLOCK ----------------------- */
 
 .header-block {
@@ -406,6 +414,7 @@ html, body {
 }
 
 .advantages__value {
+    color: #252B42;
     font-size: 40px;
     line-height: calc(57 / 40);
 }
@@ -474,6 +483,7 @@ html, body {
 }
 
 .item-practice__title {
+    color: #252B42;
     letter-spacing: 0.1px;
     font-size: 16px;
     font-weight: 700;
@@ -493,7 +503,7 @@ html, body {
 /* ----------------- WHO WE ARE ----------------------- */
 
 .whoweare {
-    background-color: #fff;
+    background-color: #252B42;
     padding: 180px 0 130px 0;
 }
 @media (max-width: 767px) {
@@ -642,12 +652,12 @@ html, body {
 .subscribe__body {
     padding: 30px 50px;
     align-items: center;
-    background: #17213C;
+    background: #1c2032;
     border-radius: 5px 5px 0 0;
 }
 @media (min-width: 1070px) {
     .subscribe__body {
-        margin: 0 30px;
+        margin: 0 30px 50px 0;
     }
 }
 
@@ -662,6 +672,7 @@ html, body {
     .subscribe__body {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 50px;
     }
     .subscribe__title {
         max-width: 266px;
@@ -699,7 +710,7 @@ html, body {
 }
 
 .subscribe__button {
-    background: #FF7B47;
+    background: #DC143C;
     color: #fff;
     font-size: 14px;
     line-height: calc(28 / 14);
@@ -714,8 +725,8 @@ html, body {
 }
 .subscribe__button:hover {
     cursor: pointer;
-    color: #FF7B47;
-    border: 1px solid #FF7B47;
+    color: #DC143C;
+    border: 1px solid #DC143C;
     background: #fff;
 }
 
@@ -762,7 +773,7 @@ html, body {
 .item-getintouch_active {
     padding: 80px 15px;
     color: #fff;
-    background: #252B42;
+    background: #4682B4;
 }
 @media (max-width: 992px) {
     .item-getintouch_active {
@@ -782,7 +793,7 @@ html, body {
 }
 
 .item-getintouch__email {
-    color: inherit;
+    color: #252B42;
     font-weight: 600;
     line-height: calc(24 / 14);
 }
@@ -801,9 +812,9 @@ html, body {
     min-height: 44px;
     line-height: calc(24 / 14);
     padding: 5px 20px;
-    border: 1px solid #FF7B47;
+    border: 1px solid #DC143C;
     border-radius: 5px;
-    color: #FF7B47;
+    color: #DC143C;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -813,7 +824,7 @@ html, body {
 }
 .item-getintouch__button:hover {
     color: #fff;
-    background-color: #FF7B47;
+    background-color: #DC143C;
 }
 
 .item-getintouch_active .item-getintouch__button {
@@ -829,7 +840,7 @@ html, body {
 /* ----------------- CONTACT ----------------------- */
 
 .contact {
-    background-color: #fff;
+    background-color: #1c2032;
     padding: 42px 0;
 }
 
@@ -872,14 +883,14 @@ html, body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #FF7B47;
+    background: #DC143C;
     color: #fff;
     border-radius: 5px;
-    border: 1px solid #FF7B47;
+    border: 1px solid #DC143C;
     transition: all 0.3s ease 0s;
 }
 .contact__button:hover {
-    color: #FF7B47;
+    color: #DC143C;
     background: #fff;
     cursor: pointer;
 }
@@ -977,6 +988,7 @@ html, body {
 
 .footer__bottom {
     padding: 25px 0;
+    background-color: #1c2032;
 }
 
 .footer__container {
